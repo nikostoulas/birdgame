@@ -1,0 +1,22 @@
+{% load staticfiles %}
+<head>
+<link rel="stylesheet" type="text/css" href="{% static "css/mystyle.css" %}">
+</head>
+<body>
+
+
+	<div id="container"></div>
+	<script
+		src="http://d3lp1msu2r81bx.cloudfront.net/kjs/js/lib/kinetic-v4.5.2.min.js"></script>
+	<script
+		src="{% static "javascript/init.js" %}"></script>
+
+	<script>
+		/*canvas.addEventListener('mousemove', function(evt) {
+	        var mousePos = getMousePos(canvas, evt);
+	        var message = 'Mouse position: ' + mousePos.x + ',' + mousePos.y;
+	        writeMessage(canvas, message);
+	      }, false);*/
+	</script>
+
+</body>
